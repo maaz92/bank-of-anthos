@@ -1,6 +1,6 @@
 # Reactive Chat Bot
 
-An AI-powered banking assistant that understands natural language and makes banking as easy as having a conversation.
+An AI-powered banking assistant that understands natural language and makes banking as easy as having a conversation. Check the demo [here](https://youtu.be/7Ig0z2ehZ_o?si=AMGmqsceYas8ImIX)
 
 ![Screenshot](documents/screenshot.png "Screenshot")
 
