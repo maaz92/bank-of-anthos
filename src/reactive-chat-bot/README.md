@@ -43,13 +43,29 @@ gcloud artifacts repositories create images \
     docker push ${REGION}-docker.pkg.dev/${PROJECT_ID}/images/reactivechatbotboaservice:v1
 ```
 
+OR
+
+Use
+
+```sh
+us-central1-docker.pkg.dev/bank-of-anthos-chat/images/reactivechatbotboaservice:v1
+```
+
 5. Use the docker image you created and pushed. Get its value by executing the following.
 
 ```sh
 echo ${REGION}-docker.pkg.dev/${PROJECT_ID}/images/reactivechatbotboaservice:v1
 ```
 
-Replace YOUR_DOCKER_IMAGE_TAG in reactivechatbotboaservice.yaml with the value you got above.
+Replace YOUR_DOCKER_IMAGE_TAG in reactivechatbotboaservice.yaml with the value you got above
+
+OR
+
+Use
+
+```sh
+us-central1-docker.pkg.dev/bank-of-anthos-chat/images/reactivechatbotboaservice:v1
+```
 
 6. Run the reactive chat bot using the following command
 
